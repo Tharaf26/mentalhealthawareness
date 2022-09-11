@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-image {
+    background-image: url("background.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact {
+   margin-top: 42px;
+   margin-bottom: 42px;
+  }
+
+  .heading {
+    font-size: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  p {
+    line-height: 1.5rem;
+  }
